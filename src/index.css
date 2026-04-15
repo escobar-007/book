@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Steinberg", sans-serif;
+  background: #191919;
+}
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
