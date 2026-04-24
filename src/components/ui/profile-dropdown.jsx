@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import ProfileIcon from "../../assets/profile-icon.svg";
+import ProfilePage from "../Profile";
 const menuItems = [
   {
     label: "Profil",
@@ -116,7 +117,7 @@ export default function ProfileDropdown({
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={2}
+            strokeWidth={2} 
             d="M19 9l-7 7-7-7"
           />
         </svg>

@@ -25,7 +25,7 @@ const HeroSlider = () => {
     },
     {
       id: 3,
-      title: "O'ZBEK MUMTOZ ADABIYOTI",
+      title: "MUSTAQILLIK DAVRI ADABIYOTI",
       image: Rectangle14,
     },
     {

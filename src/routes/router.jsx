@@ -1,3 +1,4 @@
+// router.jsx
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../layouts/RootLayout";
 import Artical from "../pages/Article";
@@ -5,6 +6,11 @@ import Forum from "../pages/Forum";
 import HomePage from "../pages/Home";
 import Nasr from "../pages/Nasr";
 import Nazm from "../pages/Nazm";
+import AdibPage from "../pages/AdibPage";
+import SignUp from "../pages/SignUp";
+import SignIn from "../pages/SignIn";
+import AddBook from "../pages/AddBook";
+import AddAuthor from "../pages/AddAuthor";
 
 const routers = createBrowserRouter([
   {
@@ -33,13 +39,23 @@ const routers = createBrowserRouter([
       },
     ],
   },
+  { path: "/adiblar/:id", element: <AdibPage /> },
+
   {
     path: "/sign-up",
-    element: <h1>SignUp</h1>,
+    element: <SignUp />,
+  },
+  {
+    path: "/add-book",
+    element: <AddBook />,
+  },
+  {
+    path: "/add-author",
+    element: <AddAuthor />,
   },
   {
     path: "/sign-in",
-    element: <h1>SignIn</h1>,
+    element: <SignIn />,
   },
   {
     path: "*",

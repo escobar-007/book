@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1777012603358",
+      "firstname": "Asadbek",
+      "lastname": "Frontend",
+      "phone": "+998500998338",
+      "email": "frontendfcss@gmail.com",
+      "password": "$2a$10$Xe9knaUIgG9eiEUms.zKae518/eMYObBs8pmDFcCz2hIewoWqEM1K",
+      "avatar": "",
+      "createdAt": "2026-04-24T06:36:43.358Z"
+    }
+  ],
+  "books": [],
+  "authors": []
+}
